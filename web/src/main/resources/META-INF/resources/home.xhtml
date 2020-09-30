@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="pt-BR" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:b="http://bootsfaces.net/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:jsf="http://xmlns.jcp.org/jsf"
+	xmlns:pt="http://xmlns.jcp.org/jsf/passthrough"
+	xmlns:pe="http://primefaces.org/ui/extensions">
+
+<h:head>
+	<title>Anderson Santo</title>
+	
+	<meta xml:lang="pt-BR" http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="author" content="Alisson Hoepers" />
+    <meta name="description" content="Sistema | Medcon Contabilidade" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	
+	<h:outputStylesheet name="primeicons/primeicons.css" library="primefaces" />
+</h:head>
+
+<h:body>
+	<h:form>
+		<b:container>
+			<b:panelGrid columns="1" 
+			             style="text-align:center; align-items: center;">
+	       		<b:row>
+	           		<b:column>
+	             		<h1 style="margin-bottom: 20px;">VENCENDO O JOGO:</h1>
+	               </b:column>
+	           	</b:row>
+	            
+	            <b:row>
+	            	<b:column>
+	             		<h3 style="margin-bottom: 20px;">Como desenvolver uma plataforma que permita
+	             			a implementação de redes neurais voltadas para o aprendizado do jogo Kalah?</h3>
+	            	</b:column>
+	            </b:row>
+	            
+	            <b:well>
+		            <p:outputLabel>
+		            	Você tem a opção de treinar o algoritmo de rede neural artificial contra um dos algoritmos disponíveis,
+		            	ou jogar livremente.
+		            </p:outputLabel>
+		            
+		            <p:outputLabel>
+		            	Na forma de treinamento existem três dificuldades, 
+		            	onde cada uma delas utiliza um algoritmo específico para treinar os pesos da rede neural.
+		            </p:outputLabel>
+		            
+		            <p:outputLabel>
+		            	Já no modo jogo pode escolher entre jogar contra os algoritmos ou contra outro jogador humano.
+		            </p:outputLabel>
+	            </b:well>
+	            
+	            <b:row>
+	           		<b:column>
+	           			<h2 style="margin-bottom: 20px;">Bem vindo ao Kalah</h2>
+	               </b:column>
+	           	</b:row>
+	            
+	            <p:row>
+	            	<b:column>
+		            	<b:commandButton id="btnTreinar" value="TREINAR IA" iconAwesome="leanpub"
+		            					 look="success" icon-size="2x"
+		            					 tooltip="TREINAR IA" style="margin: 20px;"
+		            					 action="#{homeMB.treinar}" />
+		            					 
+		             	<b:commandButton id="btnJogar" value="JOGAR" iconAwesome="gamepad"
+	             						 look="success" icon-size="2x"
+	             						 tooltip="JOGAR" style="margin: 20px;"
+		            					 action="#{homeMB.jogar}" />
+	            	</b:column>
+	            </p:row>
+			</b:panelGrid>
+		</b:container>
+	</h:form>
+</h:body>
+</html>

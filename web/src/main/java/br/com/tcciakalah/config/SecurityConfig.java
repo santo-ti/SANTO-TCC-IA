@@ -20,6 +20,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
             http.userDetailsService(userDetailsService()).authorizeRequests()
                 .antMatchers("/").permitAll()
                 .antMatchers("/**.jsf").permitAll()
+                .antMatchers("/**.xhtml").permitAll()
                 .antMatchers("/javax.faces.resource/**").permitAll().anyRequest().anonymous();
         } catch (Exception ex) {
             throw new RuntimeException(ex);
