@@ -4,6 +4,7 @@
 	xmlns:h="http://java.sun.com/jsf/html"
 	xmlns:f="http://java.sun.com/jsf/core"
 	xmlns:p="http://primefaces.org/ui"
+	xmlns:b="http://bootsfaces.net/ui"
 	xmlns:ui="http://java.sun.com/jsf/facelets"
 	xmlns:jsf="http://xmlns.jcp.org/jsf"
 	xmlns:pt="http://xmlns.jcp.org/jsf/passthrough"
@@ -13,56 +14,115 @@
 	<title>Anderson Santo</title>
 	
 	<meta xml:lang="pt-BR" http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="author" content="Alisson Hoepers" />
-    <meta name="description" content="Sistema | Medcon Contabilidade" />
+    <meta name="author" content="Anderson Santo" />
+    <meta name="description" content="TCC - IA" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 	
 	<h:outputStylesheet name="primeicons/primeicons.css" library="primefaces" />
-	
-	<style type="text/css">
-		.customPanelGrid .ui-panelgrid-content {
-			text-align:center;
-            align-items: center;
-            border: 0px solid;
-	    }
-	    
-	    .fa {
-	    	overflow: visible !important;
-	    	    margin-top: -10px !important;
-	    }
-	</style>
 </h:head>
+
 
 <h:body>
 	<h:form>
-		<p:panelGrid columns="1" 
-		             layout="flex" 
-		             columnClasses="p-col-12 p-md-3 p-xl-2, p-col-12 p-md-9 p-xl-4, p-col-12 p-md-3 p-xl-2, p-col-12 p-md-9 p-xl-4" 
-		             styleClass="customPanelGrid">
-		             
-		             <p:row>
-			             <h1 class="cabecalhoPrincipal-titulo">VENCENDO O JOGO:</h1>
-		             </p:row>
-		             
-		             <p:row>
-			             <h3 class="cabecalhoPrincipal-titulo">Como desenvolver uma plataforma que permita 
-			             	a implementação de redes neurais voltadas para o aprendizado do jogo Kalah?</h3>
-		             </p:row>
-		             
-		             <hr/>
-		             
-		             <h2>Jogar</h2>
-		             
-		             <p:row>
-			             <p:commandButton id="btnTreinar" value="Treinar IA" icon="fa fa-leanpub"
-		             					  style="margin:20px;"
-		             					   />
-		             					  
-			             <p:commandButton id="btnJogar" value="Jogar" icon="fa fa-gamepad"
-		             					  style="margin:20px;"
-		             					   />
-		             </p:row>
-		</p:panelGrid>
+		<b:container style-class="text-center">
+			<b:panelGrid columns="1" size="lg">
+				<b:row>
+	           		<b:column>
+	             		<h1>VENCENDO O JOGO:</h1>
+	               </b:column>
+	           	</b:row>
+			             
+	             <b:row>
+	            	<b:column>
+	             		<h3 style="margin-bottom: 20px;">Como desenvolver uma plataforma que permita
+	             			a implementação de redes neurais voltadas para o aprendizado do jogo Kalah?</h3>
+	            	</b:column>
+	            </b:row>
+			    
+	            <b:jumbotron>
+	            	<b:row>
+			            <p>
+			            	Nesse modo de jogo você pode escolher entre 3 opções de jogo, são elas:
+			            </p>
+	            	</b:row>
+		            
+		            <b:row>
+			            <p>
+			            	Jogar contra outro jogador humano (HUMANO x HUMANO).
+			            </p>
+		            </b:row>
+		            
+		            <b:row>
+			            <p>
+			            	Jogar contra os algoritmos (HUMANO x MINIMAX ou HUMANO x REDE NEURAL).
+			            </p>
+		            </b:row>
+	            </b:jumbotron>
+	            
+	            <b:row>
+	           		<b:column>
+	           			<h2>Jogar</h2>
+	               </b:column>
+	           	</b:row>
+			             
+	            <p:row>
+	            	<b:column>
+	            		<b:button id="btnVoltar" value="VOLTAR" iconAwesome="arrow-circle-left"
+		            					 size="lg"
+		            					 tooltip="VOLTAR" style="margin: 20px;"
+		            					 outcome="home" />
+		            	
+		            	<b:commandButton id="btnTreinar" value="TREINAR IA" iconAwesome="leanpub"
+		            					 look="info" size="lg" rendered="false"
+		            					 tooltip="TREINAR IA" style="margin: 20px;"
+		            					  />
+		            					 
+		             	<b:commandButton id="btnNovoJogo" value="NOVO JOGO" iconAwesome="gamepad"
+	             						 look="success" size="lg"
+	             						 tooltip="NOVO JOGO" style="margin: 20px;"
+		            					  />
+            		</b:column>
+            	</p:row>
+			</b:panelGrid>
+			
+			<hr/>
+			
+			<b:buttonToolbar style="margin-bottom: 5px;">
+				<b:buttonGroup offset="4" size="lg">
+			    	<b:button style="width: 55px" value="1" />
+			  	</b:buttonGroup>
+		  		<b:buttonGroup size="lg">
+			    	<b:button style="width: 55px" value="2" />
+		  		</b:buttonGroup>
+		  		<b:buttonGroup size="lg">
+			    	<b:button style="width: 55px" value="3" />
+		  		</b:buttonGroup>
+		  		<b:buttonGroup size="lg">
+			    	<b:button style="width: 55px" value="4" />
+		  		</b:buttonGroup>
+		  		<b:buttonGroup size="lg">
+			    	<b:button style="width: 55px" value="5" />
+		  		</b:buttonGroup>
+			</b:buttonToolbar>
+			
+			<b:buttonToolbar styleClass="text-center" style="margin-bottom: 5px;">
+				<b:buttonGroup offset-md="4" size="lg">
+			    	<b:button style="width: 55px" value="10" />
+			  	</b:buttonGroup>
+		  		<b:buttonGroup size="lg">
+			    	<b:button style="width: 55px" value="9" />
+		  		</b:buttonGroup>
+		  		<b:buttonGroup size="lg">
+			    	<b:button style="width: 55px" value="8" />
+		  		</b:buttonGroup>
+		  		<b:buttonGroup size="lg">
+			    	<b:button style="width: 55px" value="7" />
+		  		</b:buttonGroup>
+		  		<b:buttonGroup size="lg">
+			    	<b:button style="width: 55px" value="6" />
+		  		</b:buttonGroup>
+			</b:buttonToolbar>
+		</b:container>
 	</h:form>
 </h:body>
 </html>

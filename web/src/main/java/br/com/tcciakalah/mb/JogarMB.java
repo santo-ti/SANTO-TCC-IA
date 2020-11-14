@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 @ViewScoped
-public class HomeMB implements Serializable {
+public class JogarMB implements Serializable {
 
     private static final long serialVersionUID = 1L;
 

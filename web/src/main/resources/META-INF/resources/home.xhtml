@@ -14,8 +14,8 @@
 	<title>Anderson Santo</title>
 	
 	<meta xml:lang="pt-BR" http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="author" content="Alisson Hoepers" />
-    <meta name="description" content="Sistema | Medcon Contabilidade" />
+    <meta name="author" content="Anderson Santo" />
+    <meta name="description" content="TCC - IA" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 	
 	<h:outputStylesheet name="primeicons/primeicons.css" library="primefaces" />
@@ -23,12 +23,11 @@
 
 <h:body>
 	<h:form>
-		<b:container>
-			<b:panelGrid columns="1" 
-			             style="text-align:center; align-items: center;">
+		<b:container style-class="text-center">
+			<b:panelGrid columns="1" size="lg">
 	       		<b:row>
 	           		<b:column>
-	             		<h1 style="margin-bottom: 20px;">VENCENDO O JOGO:</h1>
+	             		<h1>VENCENDO O JOGO:</h1>
 	               </b:column>
 	           	</b:row>
 	            
@@ -39,39 +38,45 @@
 	            	</b:column>
 	            </b:row>
 	            
-	            <b:well>
-		            <p:outputLabel>
-		            	Você tem a opção de treinar o algoritmo de rede neural artificial contra um dos algoritmos disponíveis,
-		            	ou jogar livremente.
-		            </p:outputLabel>
+	            <b:jumbotron>
+	            	<b:row>
+			            <p>
+			            	Você tem a opção de treinar o algoritmo de rede neural artificial contra um dos algoritmos disponíveis,
+			            	ou jogar livremente.
+			            </p>
+	            	</b:row>
 		            
-		            <p:outputLabel>
-		            	Na forma de treinamento existem três dificuldades, 
-		            	onde cada uma delas utiliza um algoritmo específico para treinar os pesos da rede neural.
-		            </p:outputLabel>
+		            <b:row>
+			            <p>
+			            	Na forma de treinamento existem três dificuldades, 
+			            	onde cada uma delas utiliza um algoritmo específico para treinar os pesos da rede neural.
+			            </p>
+		            </b:row>
 		            
-		            <p:outputLabel>
-		            	Já no modo jogo pode escolher entre jogar contra os algoritmos ou contra outro jogador humano.
-		            </p:outputLabel>
-	            </b:well>
+		            <b:row>
+			            <p>
+			            	Já no modo jogo pode escolher entre jogar contra os algoritmos ou contra outro jogador humano.
+			            </p>
+		            </b:row>
+	            </b:jumbotron>
 	            
 	            <b:row>
 	           		<b:column>
-	           			<h2 style="margin-bottom: 20px;">Bem vindo ao Kalah</h2>
+	           			<h2>Bem vindo ao Kalah</h2>
 	               </b:column>
 	           	</b:row>
 	            
 	            <p:row>
 	            	<b:column>
-		            	<b:commandButton id="btnTreinar" value="TREINAR IA" iconAwesome="leanpub"
-		            					 look="success" icon-size="2x"
-		            					 tooltip="TREINAR IA" style="margin: 20px;"
-		            					 action="#{homeMB.treinar}" />
+		            	<b:button id="btnTreinar" value="TREINAR IA" iconAwesome="leanpub"
+            					  look="info" size="lg"
+            					  tooltip="TREINAR IA" style="margin: 20px;"
+            					  outcome="treinar" />
 		            					 
-		             	<b:commandButton id="btnJogar" value="JOGAR" iconAwesome="gamepad"
-	             						 look="success" icon-size="2x"
-	             						 tooltip="JOGAR" style="margin: 20px;"
-		            					 action="#{homeMB.jogar}" />
+		             	<b:button id="btnJogar" value="JOGAR" iconAwesome="gamepad"
+           						  look="success" size="lg"
+           						  tooltip="JOGAR" style="margin: 20px;"
+            					  outcome="jogar" />
 	            	</b:column>
 	            </p:row>
 			</b:panelGrid>
