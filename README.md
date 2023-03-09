@@ -21,7 +21,7 @@ Como desenvolver uma plataforma que permita a implementação de redes neurais v
 
 #### BACKEND:
 - Java v17 (LTS)
-- Gradle 8 (Latest)
+- Gradle v8 (Latest)
 
 #### FRONTEND:
 - React v18 (Latest)
