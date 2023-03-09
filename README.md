@@ -19,6 +19,8 @@ Como desenvolver uma plataforma que permita a implementação de redes neurais v
 
 ### LINGUAGEM, LIBS E FERRAMENTAS:
 
+- Principais linguagens, libs e ferramentas de cada Stack.
+
 #### BACKEND:
 - [![My Skills](https://skillicons.dev/icons?i=java)](https://blogs.oracle.com/oracle-brasil/post/a-chegada-do-java-17) **Java** v17 (LTS)
 - [![My Skills](https://skillicons.dev/icons?i=gradle)](https://docs.gradle.org/8.0.2/dsl) **Gradle** v8
