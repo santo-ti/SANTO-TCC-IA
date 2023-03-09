@@ -21,7 +21,8 @@ Como desenvolver uma plataforma que permita a implementação de redes neurais v
 
 #### BACKEND:
 - [![My Skills](https://skillicons.dev/icons?i=java)](https://blogs.oracle.com/oracle-brasil/post/a-chegada-do-java-17) **Java** v17 (LTS)
-- [![My Skills](https://skillicons.dev/icons?i=gradle)](https://docs.gradle.org/8.0.2/dsl) **Gradle** v8 (Latest)
+- [![My Skills](https://skillicons.dev/icons?i=gradle)](https://docs.gradle.org/8.0.2/dsl) **Gradle** v8
 
 #### FRONTEND:
-- [![My Skills](https://skillicons.dev/icons?i=react)](https://pt-br.reactjs.org/tutorial/tutorial.html) **React** v18 (Latest)
+- [![My Skills](https://skillicons.dev/icons?i=react)](https://pt-br.reactjs.org/tutorial/tutorial.html) **React** v18
+- [![My Skills](https://skillicons.dev/icons?i=vite)](https://v3.vitejs.dev) **Vite** v3
