@@ -1,4 +1,4 @@
-# TCC-IA-Kalah
+# SANTO-TCC-IA
 UNIRUY - Faculdade Ruy Barbosa :man_student: **BACHARELADO EM CIÊNCIAS DA COMPUTAÇÃO**
 
 ---
