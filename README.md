@@ -6,7 +6,7 @@
 ### VENCENDO O JOGO:
 Como desenvolver uma plataforma que permita a implementação de redes neurais voltadas para o aprendizado do jogo Kalah.
 
-- Link da Monografia entregue em 2016.1 e aprovada com nota 9.0: [Monografia TCC 2016.1](https://docs.google.com/document/d/1uERGVMw8eoQJcZtGlC9KTqcBCpsHNGFJCPAwaEguIQk/edit?usp=sharing)
+- Link da Monografia entregue em **2016.1** e aprovada com nota **9.0**: [Monografia TCC 2016.1](https://docs.google.com/document/d/1uERGVMw8eoQJcZtGlC9KTqcBCpsHNGFJCPAwaEguIQk/edit?usp=sharing)
 
 ---
 
@@ -20,8 +20,8 @@ Como desenvolver uma plataforma que permita a implementação de redes neurais v
 ### LINGUAGEM, LIBS E FERRAMENTAS:
 
 #### BACKEND:
-- Java v17 (LTS)
-- Gradle v8 (Latest)
+- [![My Skills](https://skillicons.dev/icons?i=java)](https://skillicons.dev) **Java** v17 (LTS)
+- [![My Skills](https://skillicons.dev/icons?i=gradle)](https://skillicons.dev) **Gradle** v8 (Latest)
 
 #### FRONTEND:
-- React v18 (Latest)
+- [![My Skills](https://skillicons.dev/icons?i=react)](https://skillicons.dev) **React** v18 (Latest)
