@@ -1,7 +1,7 @@
 function Header() {
   return (
     <header className="d-flex justify-content-center align-items-center">
-      <div className="flex-column justify-content-center align-items-center text-center my-5">
+      <div className="d-flex flex-column justify-content-center align-items-center text-center my-5">
         <h1 className="fw-bold mb-3">
           <a href="https://github.com/santo-ti/SANTO-TCC-IA" target="_blank">
             TCC-IA
