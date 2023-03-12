@@ -1,6 +1,6 @@
 function HouseButton() {
   return (
-    <button type="button" className="btn btn-outline-light btn-lg text-center px-4">
+    <button type="button" className="btn btn-outline-light btn-lg text-center fw-bold px-4">
       1
     </button>
   );
