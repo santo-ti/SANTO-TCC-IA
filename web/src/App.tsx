@@ -1,11 +1,19 @@
+import Header from './components/Header';
 import HouseButton from './components/HouseButton';
 
 function App() {
   return (
-    <div className="container text-center">
-      <h1>Hello World!</h1>
-      <HouseButton />
-    </div>
+    <>
+      <Header />
+      <main>
+        <section id="main-section">
+          <div className="container text-center">
+            <hr className="mb-5" />
+            <HouseButton />
+          </div>
+        </section>
+      </main>
+    </>
   );
 }
 
