@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
 * {
-  font-family: 'Roboto', sans-serif, Inter, system-ui, Avenir, Helvetica, Arial;
-  line-height: 1.5;
+  font-family: 'Roboto', system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Noto Sans', 'Liberation Sans', Arial,
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  /* line-height: 1.5; */
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -11,9 +12,8 @@
 body,
 html {
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-  display: flex;
+  /* color: rgba(255, 255, 255, 0.87);
+  background-color: #242424; */
   min-width: 320px;
   min-height: 100vh;
 }

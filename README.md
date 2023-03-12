@@ -19,13 +19,14 @@ Como desenvolver uma plataforma que permita a implementação de redes neurais v
 
 ### LINGUAGEM, LIBS E FERRAMENTAS:
 
-- Principais linguagens, libs e ferramentas de cada Stack.
+- Principais linguagens e tecnologias utilizadas em cada stack.
 
-#### BACKEND:
+#### BACKEND (pasta `ms`):
 - [![My Skills](https://skillicons.dev/icons?i=java)](https://blogs.oracle.com/oracle-brasil/post/a-chegada-do-java-17) **Java** v17 (LTS)
 - [![My Skills](https://skillicons.dev/icons?i=gradle)](https://docs.gradle.org/8.0.2/dsl) **Gradle** v8
 
-#### FRONTEND:
+#### FRONTEND (pasta `web`):
 - [![My Skills](https://skillicons.dev/icons?i=react)](https://pt-br.reactjs.org/tutorial/tutorial.html) **React** v18.2.0
 - [![My Skills](https://skillicons.dev/icons?i=vite)](https://v3.vitejs.dev) **Vite** v4.1.0
 - [![My Skills](https://skillicons.dev/icons?i=typescript)](https://www.typescriptlang.org/) **TypeScript** v4.9.3
+- [![My Skills](https://skillicons.dev/icons?i=bootstrap)](https://getbootstrap.com/docs/5.2/getting-started/introduction/) **Bootstrap** v5.2.3
