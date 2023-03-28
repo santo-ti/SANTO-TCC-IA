@@ -17,7 +17,7 @@ Como desenvolver uma plataforma que permita a implementação de redes neurais v
 
 ---
 
-### LINGUAGEM, LIBS E FERRAMENTAS:
+### LINGUAGENS E TECNOLOGIAS:
 
 - Principais linguagens e tecnologias utilizadas em cada stack.
 
