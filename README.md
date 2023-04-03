@@ -13,7 +13,7 @@ Como desenvolver uma plataforma que permita a implementação de redes neurais v
 ### REFATORAÇÃO:
 >Devido ao tempo desde a criação do projeto e o avanço das tecnologias, tornou-se necessário fazer uma grande refatoração do código antigo que estava em Java 5.
 >
->Porém, escolhi refazer do zero sem utilizar nada do código antigo. O novo projeto vai utilizar Node.js como backend e seguir o meu próprio tutorial do TCC.
+>Porém, escolhi refazer do zero sem utilizar nada do código antigo. O novo projeto vai utilizar Node.js como backend e seguir o meu próprio TCC como tutorial.
 
 ---
 
