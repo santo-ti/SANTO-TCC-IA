@@ -1,4 +1,4 @@
-# SANTO-TCC-IA
+# SANTO-TCC-IA-RN
 [UNIRUY - Faculdade Ruy Barbosa](https://www.wyden.com.br/unidades/uniruy) :man_student: **BACHARELADO EM CIÊNCIAS DA COMPUTAÇÃO**
 
 ---
