@@ -1,12 +1,13 @@
 {
-  "name": "santo-tcc-ia",
-  "private": true,
-  "version": "0.0.0",
+  "name": "web-santo-tcc-ia-rn",
+  "version": "1.0.0",
+  "description": "UNIRUY - Faculdade Ruy Barbosa 👨‍🎓 BACHARELADO EM CIÊNCIAS DA COMPUTAÇÃO - Como desenvolver uma plataforma que permita a implementação de RN (Rede Neural) voltada para o aprendizado do jogo Kalah.",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "dell": "rm -rf node_modules/"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.6",
@@ -22,5 +23,26 @@
     "sass": "^1.59.2",
     "typescript": "^4.9.3",
     "vite": "^4.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santo-ti/santo-tcc-ia-rn.git"
+  },
+  "keywords": [
+    "santo",
+    "tcc",
+    "ia",
+    "rn",
+    "rede",
+    "neural",
+    "ai",
+    "neural",
+    "network"
+  ],
+  "author": "Anderson Santo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/santo-ti/santo-tcc-ia-rn/issues"
+  },
+  "homepage": "https://github.com/santo-ti/santo-tcc-ia-rn#readme"
 }
