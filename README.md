@@ -21,9 +21,9 @@ Como desenvolver uma plataforma que permita a implementação de RN (Rede Neural
 
 - Principais linguagens e tecnologias utilizadas em cada stack.
 
-#### BACKEND (pasta `api`):
+#### BACKEND (`api`):
 
-#### FRONTEND (pasta `web`):
+#### FRONTEND (`web`):
 - [![My Skills](https://skillicons.dev/icons?i=react)](https://pt-br.reactjs.org/tutorial/tutorial.html) **React** v18.2.0
 - [![My Skills](https://skillicons.dev/icons?i=vite)](https://v3.vitejs.dev) **Vite** v4.1.0
 - [![My Skills](https://skillicons.dev/icons?i=typescript)](https://www.typescriptlang.org/) **TypeScript** v4.9.3
